@@ -1,0 +1,23 @@
+{
+  "name": "nighttab-gh-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metruzanca/nighttab-gh-pages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metruzanca/nighttab-gh-pages/issues"
+  },
+  "homepage": "https://github.com/metruzanca/nighttab-gh-pages#readme",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  }
+}

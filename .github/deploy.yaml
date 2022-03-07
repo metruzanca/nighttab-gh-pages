@@ -1,0 +1,19 @@
+# name: Deploy
+# on: [push]
+# jobs:
+#   release:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Clone NightTab
+#         uses: actions/checkout@v3
+#         with:
+#           repository: 'zombieFox/nightTab'
+#       - name: Install and Build
+#         run: |
+#           npm ci
+#           npm run build
+#       - name: Deploy 🚀
+#         uses: JamesIves/github-pages-deploy-action@v4.2.5
+#         with:
+#           branch: gh-pages
+#           folder: 'dist/web'
